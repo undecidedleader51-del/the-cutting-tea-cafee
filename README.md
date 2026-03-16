@@ -3,50 +3,55 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chai Culture</title>
+<title>The Cutting Tea Cafe</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-<header>
-<h1>Chai Culture</h1>
-<nav>
-<a href="#home">Home</a>
-<a href="#menu">Menu</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-</nav>
+<header class="navbar">
+  <div class="logo">☕ The Cutting Tea Cafe</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Menu</a>
+    <a href="#">Reviews</a>
+    <a href="#">Gallery</a>
+    <a href="#">Location</a>
+  </nav>
 </header>
 
-<section id="home">
-<h2>Welcome to Chai Culture</h2>
-<p>Authentic tea experience with a modern vibe.</p>
+<section class="hero">
+  <div class="hero-content">
+    <h1>The Cutting Tea Cafe</h1>
+    <p>The Best Cutting Tea Experience in Pokhara</p>
+
+    <div class="buttons">
+      <button class="btn-primary">View Menu</button>
+      <button class="btn-secondary">Get Directions</button>
+    </div>
+  </div>
+</section>
+  
+<section class="gallery">
+
+  <div class="card">
+    <img src="cafe1.jpg">
+  </div>
+
+  <div class="card">
+    <img src="cafe2.jpg">
+  </div>
+
+  <div class="card">
+    <img src="cafe3.jpg">
+  </div>
+
 </section>
 
-<section id="menu">
-<h2>Our Menu</h2>
-<ul>
-<li>Masala Chai - $2</li>
-<li>Ginger Tea - $2</li>
-<li>Milk Tea - $2</li>
-<li>Cold Coffee - $3</li>
-</ul>
+<section class="visit">
+  <h2>Visit Us</h2>
+  <p>Find us in the heart of Pokhara</p>
 </section>
-
-<section id="about">
-<h2>About Us</h2>
-<p>We serve the best tea in town with love and tradition.</p>
-</section>
-
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: chaiculture@email.com</p>
-</section>
-
-<footer>
-<p>© 2026 Chai Culture</p>
-</footer>
 
 </body>
 </html>
